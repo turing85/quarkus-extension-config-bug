@@ -16,11 +16,6 @@ public class MyConfigs {
 with [`MyConfig.java`][myConfigJava] being defined as:
 
 ```java
-package de.turing85.quarkus.extension.config.bug.runtime;
-
-import io.quarkus.runtime.annotations.ConfigGroup;
-import io.quarkus.runtime.annotations.ConfigItem;
-
 @ConfigGroup
 public class MyConfig {
   /**

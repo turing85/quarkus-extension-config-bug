@@ -7,12 +7,6 @@ import java.util.Map;
 @ConfigRoot(name = "my-config")
 public class MyConfigs {
   /**
-   * Default configuration
-   */
-  @ConfigItem(name = ConfigItem.PARENT)
-  MyConfig defaultConfig;
-
-  /**
    * Named configurations
    */
   @ConfigItem(name = ConfigItem.PARENT)
